@@ -1,0 +1,5 @@
+# Cmake ignores
+build/
+Build/
+
+
