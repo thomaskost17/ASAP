@@ -2,4 +2,12 @@
 build/
 Build/
 
+# Matlab
+*.asv
 
+# Artifacts
+*.lib
+*.a
+*.dll
+*.exe
+*.o
