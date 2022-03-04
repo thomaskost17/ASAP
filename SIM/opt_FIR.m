@@ -48,7 +48,7 @@ alpha = 1e-6;
 itter = 0;
 E = 1./W;
 while(abs(E_min) < abs((1-alpha)*E_max) || ...
-      abs(E_min) > abs(E_max)) && itter < 20
+      abs(E_min) > abs(E_max)) && itter < 40
     
     itter = itter + 1;
     x = (0:L);
